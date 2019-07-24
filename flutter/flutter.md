@@ -2,6 +2,17 @@
 
 ## 安装过程若遇到问题均可参考[Flutter中文网](https://flutterchina.club/get-started/install/)！！！
 
+## Java开发工具包的下载与安装
+### 下载Java开发工具包
+[Java开发工具包下载地址](https://link.juejin.im/?target=https%3A%2F%2Fwww.oracle.com%2Ftechnetwork%2Fjava%2Fjavase%2Fdownloads%2Fjdk8-downloads-2133151.html)，这个地址会随着Java升级而有所变化，如果已经改变了，请百度一下搜索java下载或者直接到[Java官网下载](https://link.juejin.im/?target=https%3A%2F%2Fwww.java.com%2Fzh_CN%2F)。
+<img src="https://raw.githubusercontent.com/xiaoshangWow/images/master/flutter/WechatIMG71.jpeg">
+首先点击红框中的圆圈，然后根据读者的系统是64位还是32位来选择版本，此处建议安装**JDK8**
+
+### 安装Java开发工具包
+首先，下载完成后双击运行进行安装，直接点击下一步下一步就可以了，安装路径读者随意；
+最后，安装完成后到终端（cmd命令行）中输入java，能出现下图中的结果，说明安装成功。
+<img src="https://raw.githubusercontent.com/xiaoshangWow/images/master/flutter/WechatIMG70.jpeg">
+
 ## 使用镜像
 由于在国内访问Flutter有时可能会受到限制，Flutter官方为中国开发者搭建了临时镜像，大家可以将如下环境变量加入到用户环境变量中：
 ```
