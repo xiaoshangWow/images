@@ -5,7 +5,9 @@
 ## Java开发工具包的下载与安装
 ### 下载Java开发工具包
 [Java开发工具包下载地址](https://link.juejin.im/?target=https%3A%2F%2Fwww.oracle.com%2Ftechnetwork%2Fjava%2Fjavase%2Fdownloads%2Fjdk8-downloads-2133151.html)，这个地址会随着Java升级而有所变化，如果已经改变了，请百度一下搜索java下载或者直接到[Java官网下载](https://link.juejin.im/?target=https%3A%2F%2Fwww.java.com%2Fzh_CN%2F)。
+
 <img src="https://raw.githubusercontent.com/xiaoshangWow/images/master/flutter/WechatIMG71.jpeg">
+
 首先点击红框中的圆圈，然后根据读者的系统是64位还是32位来选择版本，此处建议安装**JDK8**
 
 ### 安装Java开发工具包
@@ -37,9 +39,9 @@ export FLUTTER_STORAGE_BASE_URL=https://storage.flutter-io.cn
 ## 获取Flutter SDK
 ### 方案一
 
-1.去flutter官网下载其最新可用的安装包，**建议下载v1.6.2版本，团队版本进行统一**，[点击下载](https://flutter.io/sdk-archive/#windows)，
+1. 去flutter官网下载其最新可用的安装包，**建议下载v1.6.2版本，团队版本进行统一**，[点击下载](https://flutter.io/sdk-archive/#windows)。
 
-2.将安装包zip解压到你想安装Flutter SDK的路径（如：C:\src；注意，**不要**将flutter安装到需要一些高权限的路径如C:\Program Files\）。  
+2. 将安装包zip解压到你想安装Flutter SDK的路径（如：C:\src；注意，**不要**将flutter安装到需要一些高权限的路径如C:\Program Files\）。  
 
 <!-- 3.在Flutter安装目录的flutter文件下找到flutter_console.bat，双击运行并启动**flutter命令行**，接下来，你就可以在Flutter命令行运行flutter命令了。   -->
 
@@ -49,15 +51,19 @@ export FLUTTER_STORAGE_BASE_URL=https://storage.flutter-io.cn
 
 要更新现有版本的Flutter，请参阅[升级Flutter](https://flutterchina.club/upgrading/)。
 
-### 方案二（推荐）
+### 方案二
 
 通过**git**命令下载**flutter sdk**:
 
 1. 确保已安装和配置[Git命令行工具](https://git-scm.com/download/win)
+
 2. 创建安装Flutter SDK的文件夹（如：C:\src\), 通过终端cd到该目录
+
 3. 执行git命令: git clone -b master https://github.com/flutter/flutter.git
+
 4. 执行git命令: git checkout v1.6.2 **切换到v1.6.2版本，团队版本进行统一**
 <img src="https://raw.githubusercontent.com/xiaoshangWow/images/master/flutter/WechatIMG67.jpeg">
+
 5. 新建系统环境变量 Path： flutter\bin的全路径作为它的值,重启Windows以应用此更改
 <img src="https://raw.githubusercontent.com/xiaoshangWow/images/master/flutter/WechatIMG51.jpeg">
 
@@ -108,12 +114,16 @@ flutter doctor --android-licenses
 ### AS创建Flutter项目
 1. 点击File > New Flutter Project
 <img src="https://raw.githubusercontent.com/xiaoshangWow/images/master/flutter/WechatIMG62.jpeg">
+
 2. 点击Flutter application作为project类型，然后点击Next
 <img src="https://raw.githubusercontent.com/xiaoshangWow/images/master/flutter/WechatIMG55.jpeg">
+
 3. 输入项目名称（如 myapp），然后点击Next
 <img src="https://raw.githubusercontent.com/xiaoshangWow/images/master/flutter/WechatIMG56.jpeg">
+
 4. 点击Finish
 <img src="https://raw.githubusercontent.com/xiaoshangWow/images/master/flutter/WechatIMG57.jpeg">
+
 5. 等待Android Studio安装SDK并创建项目
 
 ### AS运行Flutter项目
@@ -121,22 +131,30 @@ flutter doctor --android-licenses
 
 1. 开启AS的代理，这里需要科学上网，可以选择不同的代理服务
 <img src="https://raw.githubusercontent.com/xiaoshangWow/images/master/flutter/WechatIMG64.jpeg">
+
 2. 定位到AS工具栏
-3. 在target selector中，选择一个运行该应用的Android设备。如果没有列出可用，请选择Tools > Android > AVD Manager并创建一个，**建议选择图示的机型和镜像**
+
+3. 在target selector中，选择一个运行该应用的Android设备。如果没有列出可用，请选择Tools > Android > AVD Manager并创建一个 **建议选择图示的机型和镜像**
 <img src="https://raw.githubusercontent.com/xiaoshangWow/images/master/flutter/WechatIMG58.jpeg">
 <img src="https://raw.githubusercontent.com/xiaoshangWow/images/master/flutter/WechatIMG59.jpeg">
 <img src="https://raw.githubusercontent.com/xiaoshangWow/images/master/flutter/WechatIMG60.jpeg">
 <img src="https://raw.githubusercontent.com/xiaoshangWow/images/master/flutter/WechatIMG61.jpeg">
+
 4. 启动项目前再次在终端运行指令 flutter doctor 检测是否通过，只需配置好一个编辑器即可
 <img src="https://raw.githubusercontent.com/xiaoshangWow/images/master/flutter/WechatIMG63.jpeg">
-5. 在工具栏中点击Run或Debug图标。
+
+5. 在工具栏中点击Run或Debug图标
 <img src="https://raw.githubusercontent.com/xiaoshangWow/images/master/flutter/WechatIMG66.jpeg">
-6. 由于第一次没有开启代理运行报错截图如下，[解决方案点此查看](https://github.com/alibaba/freeline/issues/434)，若是没有遇到可跳过
+
+6. 由于第一次没有开启代理运行报错截图如下, [解决方案点此查看](https://github.com/alibaba/freeline/issues/434), 若是没有遇到可跳过
 <img src="https://raw.githubusercontent.com/xiaoshangWow/images/master/flutter/WechatIMG516.jpeg">
-7. 在读者的真机设备或模拟器上将会看到启动的应用程序，至此Flutter环境搭建陈工。
+
+7. 在读者的真机设备或模拟器上将会看到启动的应用程序，至此Flutter环境搭建成功
 <img src="https://raw.githubusercontent.com/xiaoshangWow/images/master/flutter/WechatIMG65.jpeg">
+
 8. 每次新建一个flutter项目，系统会自动创建如下示例代码，若想查看更多示例代码请参考[官网教程](https://flutterchina.club/get-started/learn-more/)
-```
+
+```dart
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
@@ -248,7 +266,6 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
-
 ```
 
 ## [seed.mobile](http://116.62.61.34:8888/flutter/seed.mobile)项目
