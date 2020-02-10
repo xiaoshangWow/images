@@ -61,7 +61,7 @@ export FLUTTER_STORAGE_BASE_URL=https://storage.flutter-io.cn
 
 3. 执行git命令: git clone -b master https://github.com/flutter/flutter.git
 
-4. 执行git命令: git checkout v1.6.2 **切换到v1.6.2版本，团队版本进行统一**
+4. 执行git命令: git checkout v1.6.2 **切换到v1.6.2版本(现在已更新到1.9.0)，团队版本进行统一**
 <img src="https://raw.githubusercontent.com/xiaoshangWow/images/master/flutter/WechatIMG67.jpeg">
 
 5. 新建系统环境变量 Path： flutter\bin的全路径作为它的值,重启Windows以应用此更改
