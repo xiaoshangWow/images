@@ -3,20 +3,20 @@
     "enabled": true,
     "platform": "ios",
     "project": "rjst",
-    "version": "1.0.0",
-    "title": "",
-    "content": "",
-    "url": "",
+    "version": "1.0.1",
+    "title": "亲，发现新版本！",
+    "content": "强烈建议更新之最新版本，否则可能会造成未知的问题！",
+    "url": "http://www.whrjqc.cn:7008/shapp.apk",
     "host": ""
   },
   {
     "enabled": true,
     "platform": "android",
     "project": "rjst",
-    "version": "1.0.0",
-    "title": "",
-    "content": "",
-    "url": "",
+    "version": "1.0.1",
+    "title": "亲，发现新版本！",
+    "content": "强烈建议更新之最新版本，否则可能会造成未知的问题！",
+    "url": "http://www.whrjqc.cn:7008/shapp.apk",
     "host": ""
   }
 ]
