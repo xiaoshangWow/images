@@ -1,6 +1,6 @@
 [
   {
-    "enabled": true,
+    "enable": true,
     "platform": "ios",
     "project": "rjst",
     "version": "1.0.1",
@@ -10,7 +10,7 @@
     "host": ""
   },
   {
-    "enabled": true,
+    "enable": true,
     "platform": "android",
     "project": "rjst",
     "version": "1.0.1",
