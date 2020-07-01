@@ -1,0 +1,23 @@
+[
+  {
+    "enabled": true,
+    "platform": "ios",
+    "project": "rjst",
+    "version": "1.0.0",
+    "title": "",
+    "content": "",
+    "url": "",
+    "host": ""
+  },
+  {
+    "enabled": true,
+    "platform": "android",
+    "project": "rjst",
+    "version": "1.0.0",
+    "title": "",
+    "content": "",
+    "url": "",
+    "host": ""
+  }
+]
+
